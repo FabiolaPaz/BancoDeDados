@@ -1,0 +1,12 @@
+Normalização: é o processo de organização de dados em um banco de dados. Isso inclui a criação de tabelas e o estabelecimento de relações entre essas 
+tabelas de acordo com as regras projetadas para proteger os dados e tornar o banco de dados mais flexível, eliminando a redundância e a
+dependência inconsistente.
+
+Etapas:
+
+1° Eliminar grupos repetidos em tabelas individuais, crie uma tabela separada para cada conjunto de dados relacionados, identifique cada conjunto de 
+dados relacionados com uma chave primária.
+
+2° Crie tabelas separadas para conjuntos de valores que se aplicam a vários registros e relacione essas tabelas com uma chave estrangeira.
+
+3° Elimine campos que não dependem da chave.
