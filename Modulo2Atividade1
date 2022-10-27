@@ -1,0 +1,29 @@
+select * from ALUNO where NOTA >= 7
+
+select * from ALUNO where SÉRIE = '1° ano' and NOTA >= 8
+
+select P.NOME, U.NOME, NOTA from ALUNO
+
+CREATE TABLE PROFESSOR (
+P.NOME varchar(255),
+U.NOME varchar(255)
+);
+
+CREATE TABLE ALUNO (
+P.NOME varchar(255),
+U.NOME varchar(255)
+);
+
+select * from (
+(select * as PrimeirosNomes, UltimosNomes from PROFESSOR)
+union all
+(select * as PrimeirosNomes, UltimosNomes from ALUNO)
+) tab
+
+select P.Nome, U.Nome  from PROFESSOR
+INTERSECT
+select P.Nome, U.Nome from ALUNO
+
+select P.Nome, U.Nome  from PROFESSOR
+EXCEPT
+select P.Nome, U.Nome from ALUNO
