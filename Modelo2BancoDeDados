@@ -1,0 +1,12 @@
+1° Analise de requisitos: é considerada a fase mais importante do processo. Atividades como entrevistas e reuniões discutem os processos que serão 
+controlados pelo sistema os quais são de suma importância para que o desenho do modelo seja o mais fiel possível à realidade e atenda de forma satisfatória 
+à expectativa do interessado. Pode-se dizer que o sucesso das próximas fases dependerá do entendimento claro da necessidade do cliente.
+
+2° Modelo conceitual: é a forma de como as estruturas serão criadas para armazenar os dados, sendo assim a forma mais natural dos fatos e estão mais 
+próximas da realidade do ambiente do cliente.
+
+3° Modelo lógico: Descreve como os dados serão armazenados no banco e também seus relacionamentos. Esse modelo adota alguma tecnologia, pode ser:
+relacional, orientado a objetos, orientado a colunas, entre outros.
+
+4° Modelo Físico: Nessa fase é que os detalhes físicos são definidos: armazenamento dos dados, geração dos scripts que irão criar as tabelas e
+visões do banco.
