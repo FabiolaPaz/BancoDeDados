@@ -1,0 +1,5 @@
+Modelos Relacionais:
+MySQL, OracleDB, SQLServer, MariaDB, PostgreSQL.
+
+Modelos Não Relacionais:
+Redis, Memcached, Cassandra, Hbase, Amazon DynamoDB, Neo4j, MongoDB.
