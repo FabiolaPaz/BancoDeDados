@@ -1,0 +1,22 @@
+1. Confidencialidade: sendo o pilar da segurança da informação, garantindo que os dados estejam acessíveisa úsuarios protegidos
+contra pessoas não autorizada, sendo o essencial da privacidade, ou seja, se aplicando especialmente a dados pessoais, sensíveis, financeiros,
+psicográficos e outras informações sigilosas. 
+
+2. Integridade: diz respeito à preservação, precisão, consistência e confiabilidade dos dados durante todo o seu ciclo de vida. 
+Para erguer o pilar da empresa  é preciso implementar mecanismos de controle assim evitando que as informações sejam alteradas ou
+deletada por pessoas não autorizadas. Frequentemente, a integridade dos dados é afetada por erros humanos, políticas de segurança 
+inadequadas, processos falhos e ciberataques. 
+
+3. Disponibilidade: Para que um sistema de informação seja útil, é fundamental que seus dados estejam disponíveis sempre que necessário.
+Logo, a disponibilidade é mais um pilar da segurança da informação, que garante o acesso em tempo integral pelos usuários finais.
+Para cumprir esse requisito, você precisa garantir a estabilidade e acesso permanente às informações dos sistemas.
+Lembrando que os sistemas são vulneráveis a desastres naturais, ataques de negação de serviço, blecautes, incêndios e diversas outras 
+ameaças que prejudicam sua disponibilidade.
+
+4. Autenticidade: é o pilar que valida a autorização do usuário para acessar, transmitir e receber determinadas informações. 
+Seus mecanismos básicos são logins e senhas, confirmando a identidade dos usuários antes de liberar o acesso aos sistemas e recursos,
+garantindo que não se passem por terceiros. 
+
+5. Irretratabilidade: Esse pilar garante que uma pessoa ou entidade não possa negar a autoria da informação fornecida, 
+como no caso do uso de certificados digitais para transações online e assinatura de documentos eletrônicos, sedo assim
+capaz de provar o que foi feito, quem fez e quando fez em um sistema, impossibilitando a negação das ações dos usuários. 
