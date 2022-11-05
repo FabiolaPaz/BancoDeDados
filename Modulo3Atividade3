@@ -1,0 +1,40 @@
+// Criando tabela 
+
+CREATE TABLE Carros
+(
+	id	VARCHAR(3) PRIMARY KEY,
+	ModeloCarro	VARCHAR(50),
+	Estoque	INT NOT NULL DEFAULT 0
+);
+
+INSERT INTO Carros VALUES ('001', 'SW4', 10);
+INSERT INTO Carros VALUES ('002', 'Corolla', 5);
+INSERT INTO Carros VALUES ('003', 'Ranger', 15);
+
+
+// Tabela vendas
+
+CREATE TABLE ItensVenda
+(
+	Venda		INT,
+	Produto	VARCHAR(3),
+	Quantidade	INT
+);
+
+// Criando Trigger de atualização de estoque 
+
+CREATE TRIGGER AtualizacaoDeEstoque AFTER INSERT
+ON ItensVenda
+FOR EACH ROW
+BEGIN
+	UPDATE Carros SET Estoque = Estoque - NEW.Quantidade
+WHERE id = NEW.Produto;
+END$
+
+CREATE TRIGGER CancelamentoDeVendas AFTER DELETE
+ON ItensVenda
+FOR EACH ROW
+BEGIN
+	UPDATE Carros SET Estoque = Estoque + OLD.Quantidade
+WHERE id = OLD.Produto;
+END$
