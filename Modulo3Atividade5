@@ -1,0 +1,9 @@
+USE LojaDeRoupa
+GO
+CREATE PROCEDURE RelatorioDiario
+@CampoBusca VARCHAR (20)
+AS
+SELECT QuantidadeProdutos, NomeProduto, Data
+FROM TabelaVenda
+WHERE Data = @CampoBusca 
+EXECUTE RelatorioDiario '04/11/2022'
