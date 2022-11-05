@@ -1,0 +1,12 @@
+CREATE OR REPLACE FUNCTION somaClientes
+  RETURN INT(3);
+ IS
+  totalDeClientes INT(3);
+BEGIN
+SELECT count(*) INTO totalDeClientes
+ FROM clientes WHERE Data = '05/05/2005';
+ RETURN totalDeClientes;
+END;
+/
+
+totalDoDia := somaClientes;
